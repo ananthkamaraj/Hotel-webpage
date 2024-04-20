@@ -1,0 +1,66 @@
+@media (max-width: 500px) {
+    .mrt-sm{
+        margin-top: 30px;
+    }
+
+    .none{
+        display: none !important;
+    }
+
+    .padding-container{
+        padding-top: 50px !important;
+    }
+
+    .room_card_content {
+        margin-top: -311px;
+        height: 311px !important;
+    }
+
+    .slider_booking_text {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Cambria Math" !important;
+    }
+      
+    .slider_booking_text h3 {
+        letter-spacing: 4px;
+    }
+    
+    .slider_booking_text h1 {
+        font-size: 50px;
+        line-height: 70px;
+        letter-spacing: 4px;
+    }
+
+    .product_heding{
+        font-size: 30px;
+    }
+
+    .product_heding1{
+        margin-top: 280px;
+    }
+
+    .product_heding_bottom{
+        width: 50px;
+    }
+
+    .background_2 {
+        margin-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .slider_booking_form {
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #000;
+    }
+
+    .slider_booking_form_inputs, .slider_bookking_button{
+        width: 100% !important;
+    }
+
+    .footer {
+        margin-top: 0 !important;
+    }
+}

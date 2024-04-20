@@ -1,0 +1,194 @@
+html,
+body {
+  font-family: "poppins", sans-serif !important;
+}
+
+::selection {
+  color: white;
+  background-color: black !important;
+}
+
+a{
+  color: #d8a612 !important;
+}
+
+button {
+  outline: none !important;
+  user-select: none !important;
+}
+
+.btn-warning {
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+  background-color: #d8a612 !important;
+  font-family: "Cambria Math" !important;
+}
+
+.btn-warning:hover {
+  background-color: black !important;
+}
+
+.btn-secondary{
+  border: none !important;
+  font-weight: 600 !important;
+  font-family: "Cambria Math" !important;
+}
+
+input,
+.form-control {
+  outline: none !important;
+}
+
+.card {
+  border-radius: 0px !important;
+  border: 1px solid transparent !important;
+}
+
+.padding-container {
+  padding-top: 100px;
+}
+
+#header {
+  transition: 0.4s;
+  background-color: white;
+}
+
+.header-link {
+  font-weight: 600;
+  color: black !important;
+}
+
+.header-link:hover {
+  color: #d8a612 !important;
+}
+
+.active {
+  color: #d8a612 !important;
+}
+
+.slider_bg {
+  width: 100%;
+  height: 100vh;
+  user-select: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("assets/img/slider_bg.jpg");
+}
+
+.slider_ovarlay {
+  width: 100%;
+  height: 100vh;
+  user-select: none;
+  padding-top: 200px;
+  background-color: #00000054;
+}
+
+.background_2 {
+  margin-top: 150px;
+  padding-bottom: 130px;
+  background-color: #348a8a1a;
+}
+
+.slider_booking_text {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Cambria Math" !important;
+}
+
+.slider_booking_text h3 {
+  letter-spacing: 4px;
+}
+
+.slider_booking_text h1 {
+  font-size: 80px;
+  line-height: 150px;
+  letter-spacing: 4px;
+}
+
+.slider_bookking_labels {
+  color: white;
+  font-weight: 600;
+  font-family: "Cambria Math" !important;
+}
+
+.slider_booking_form {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #000000b0;
+}
+
+.slider_booking_form input[type="date"] {
+  font-size: 13px;
+}
+
+.slider_booking_form input[type="number"] {
+  width: 130px;
+}
+
+.slider_bookking_button {
+  height: 45px;
+}
+
+.product_heding {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.product_heding_bottom {
+  width: 200px;
+  margin-left: 40%;
+  margin-top: 20px;
+  border-bottom: 3px solid #d8a612;
+}
+
+.room_card_content {
+  width: 100%;
+  height: 372px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -372px;
+  position: absolute;
+  padding: 120px 10px 0 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-paragrap {
+  color: #888;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+/* .popular_location_card {
+  box-shadow: 0px 0px 20px 9px #dee2e6;
+} */
+
+.popular_location_card_img {
+  width: 100%;
+  height: 320px;
+}
+
+.popular_location_card_viwe_btn {
+  margin-top: -45px;
+  margin-left: 120px;
+}
+
+.popular_location_card {
+  border-radius: 5px !important;
+  box-shadow: 0 0 20px 0#dee2e6;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 100px;
+  color: white !important;
+  background-color: black;
+}
+
+.footer a {
+  color: white !important;
+  text-decoration: underline;
+}
